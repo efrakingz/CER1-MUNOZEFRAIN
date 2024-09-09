@@ -1,0 +1,101 @@
+
+h1 h2{
+  font-family: 'SimpleBirthday';
+  color: #A3B18A;
+}
+
+
+body {
+    font-family: 'SimpleBirthday';
+    background-color: #DAD7CD;
+    color: #344E41;
+  }
+  
+  /*MENU */
+  .navbar {
+    background-color: #A3B18A;
+  }
+  
+  .navbar-brand, .nav-link {
+    color: #344E41;
+  }
+  
+  .nav-link:hover {
+    color: #588157;
+  }
+  
+  /* ENCABEZADO*/
+  header {
+    background-color: #1E2F23;
+    color: #DAD7CD;
+  }
+  
+ 
+  /* BOTONES*/
+  .btn-success {
+    background-color: #588157;
+    border-color: #3A5A40;
+    color: #DAD7CD;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .btn-success:hover {
+    background-color: #3A5A40;
+    transform: scale(1.05);
+  }
+  
+  /* FOEMULARIOS*/
+  form {
+    background-color: #A3B18A;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  /* IMPUTSELECT */
+  input[type="text"], input[type="email"], textarea, select {
+    border: 1px solid #3A5A40;
+    background-color: #DAD7CD;
+    color: #344E41;
+  }
+  
+  /* SENDBOTONS*/
+  button[type="submit"] {
+    background-color: #588157;
+    border: 1px solid #3A5A40;
+    color: #DAD7CD;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #3A5A40;
+    transform: scale(1.05);
+  }
+  
+  /* STYLESCARD */
+  .card {
+    background-color: #DAD7CD;
+    border: 1px solid #3A5A40;
+    color: #344E41;
+  }
+  
+  .card-title {
+    color:  #3A5A40;
+  }
+  
+  /* GALERIA*/
+  @media (max-width: 576px) {
+    .card {
+      width: 100%;
+    }
+  }
+  /* BOTONZOOM */
+button[type="submit"] {
+    transition: background-color 0.3s, transform 0.3s ease-in-out;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #3A5A40;
+    transform: scale(1.05); /* Efectozoom */
+  }
+  

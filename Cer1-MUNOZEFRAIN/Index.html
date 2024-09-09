@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda Verde - Inicio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    /*COLOR DE LA BARRANAV*/
+    .navbar {
+      background-color: #607744; /*FONDO */
+    }
+
+    .navbar-brand, .nav-link {
+      color: #DAD7CD; /* Color del texto en la barra de navegación */
+    }
+
+    
+  </style>
+</head>
+<body>
+  <!-- MENU -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Tienda Verde</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="catalogo.html">Catálogo de Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="solicitud-reciclaje.html">Solicitud de Reciclaje</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--DESCRIPCION-->
+  <header class="text-center py-5">
+    <h1>Bienvenidos<br>a</h1>
+    <h2>Tienda Verde</h2>
+    <p>Promovemos la venta de productos ecológicos y el reciclaje.</p>
+  </header>
+
+  <!--TOPRODUCTS -->
+  <section class="container my-5">
+    <h4 class="text-center">Productos Destacados</h4>
+    <div class="row">
+      <!-- PAPELRECICLADO -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/producto6.png" class="card-img-top" alt="Producto 6">
+          <div class="card-body">
+            <h5 class="card-title">Papel Reciclado</h5>
+            <p class="card-text">Papelería hecha de papel reciclado, disponible en libretas, hojas sueltas y más.</p>
+          </div>
+        </div>
+      </div>
+      <!--BOLSASDETELA-->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/producto2.jpg" class="card-img-top" alt="Producto 2">
+          <div class="card-body">
+            <h5 class="card-title">Bolsas de Tela</h5>
+            <p class="card-text">Bolsas reutilizables ideales para compras diarias, hechas de algodón orgánico.</p>
+          </div>
+        </div>
+      </div>
+      <!-- CEPILLOSDEBAMBU-->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="images/producto3.png" class="card-img-top" alt="Producto 3">
+          <div class="card-body">
+            <h5 class="card-title">Cepillos de Bambú</h5>
+            <p class="card-text">Cepillos de dientes ecológicos fabricados con bambú sostenible.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
